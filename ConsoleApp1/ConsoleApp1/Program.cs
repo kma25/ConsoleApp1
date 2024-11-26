@@ -14,7 +14,7 @@ namespace ConsoleApp1
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите второе число");
             int b = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Результат {a + b}");
+            Console.WriteLine($"Результат {a / b}");
             Console.ReadLine();
         }
     }
